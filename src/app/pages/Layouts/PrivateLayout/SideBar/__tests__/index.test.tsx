@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
 
-import { SideBar } from '..';
+import { SideBar } from '../index';
 
 jest.mock('react-i18next', () => ({
   useTranslation: () => {

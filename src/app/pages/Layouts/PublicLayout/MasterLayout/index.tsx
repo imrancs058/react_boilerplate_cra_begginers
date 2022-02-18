@@ -7,7 +7,6 @@ import React, {useEffect} from 'react'
 import { useTranslation } from 'react-i18next';
 import { messages } from './messages';
 import {Header} from "../Header";
-import {SideBar} from "../SideBar";
 import {Content} from "../Content";
 import {Footer} from "../Footer";
 
@@ -21,7 +20,6 @@ const MasterLayout: React.FC = ({children}) => {
   return (
   <div>
     <Header/>
-    <SideBar/>
     <Content>{children}</Content>
     <Footer/>
   </div>
