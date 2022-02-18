@@ -40,16 +40,18 @@ const Routes: FC = () => {
             {!isAuthorized?(
               <>
                 <Switch>
-                  <SecureMasterLayout>
+                  <MasterLayout>
                     <PublicRoutes/>
-                  </SecureMasterLayout>
+                  </MasterLayout>
                 </Switch>
               </>
             ):(
               <>
-                <MasterLayout>
+
+              <SecureMasterLayout>
                   <PrivateRoutes />
-                </MasterLayout>
+              </SecureMasterLayout>
+
               </>
             )}
             </Switch>

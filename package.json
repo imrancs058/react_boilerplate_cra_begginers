@@ -90,6 +90,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "1.7.1",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
     "fontfaceobserver": "2.1.0",
     "formik": "2.2.9",
     "i18next": "21.6.6",

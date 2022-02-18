@@ -15,7 +15,7 @@ export function Header(props: Props) {
 
   return (
   <div>
-    <h1>Header</h1>
+    <h1>Private Header</h1>
   </div>
   );
 
